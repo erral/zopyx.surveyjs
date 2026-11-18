@@ -10,7 +10,8 @@
     "fi": "Luo uusi lomake tai kysely",
     "hi": "नया फ़ॉर्म या सर्वे बनाएं",
     "ar": "أنشئ نموذجًا أو استبيانًا جديدًا",
-    "ja": "新しいフォームまたはアンケートを作成"
+    "ja": "新しいフォームまたはアンケートを作成",
+    "eu": "Sortu formulario edo inkesta berri bat"
   },
   "description": {
     "default": "Define basic form metadata, choose how submissions are handled, configure mail options if needed, and review validation/access settings before creating the survey.",
@@ -23,7 +24,8 @@
     "fi": "Määritä lomakkeen perustiedot, valitse miten lähetykset käsitellään, määritä sähköpostiasetukset tarvittaessa ja tarkista validointi- ja käyttöasetukset ennen kyselyn luomista.",
     "hi": "बुनियादी फ़ॉर्म मेटाडेटा परिभाषित करें, सबमिशन कैसे संभाले जाएं चुनें, आवश्यकता होने पर मेल विकल्प कॉन्फ़िगर करें, और सर्वे बनाने से पहले सत्यापन/एक्सेस सेटिंग्स की समीक्षा करें।",
     "ar": "حدّد بيانات النموذج الأساسية، واختر كيفية معالجة الإرسالات، واضبط خيارات البريد عند الحاجة، وراجع إعدادات التحقق/الوصول قبل إنشاء الاستبيان.",
-    "ja": "基本的なフォームのメタデータを定義し、送信の処理方法を選択し、必要に応じてメール設定を構成し、アンケート作成前に検証/アクセス設定を確認します。"
+    "ja": "基本的なフォームのメタデータを定義し、送信の処理方法を選択し、必要に応じてメール設定を構成し、アンケート作成前に検証/アクセス設定を確認します。",
+    "eu": "Definitu formularioaren oinarrizko metadatuak, aukeratu bidalketak nola kudeatuko diren, konfiguratu posta-aukerak behar izanez gero, eta berrikusi balidazio-/sarbide-ezarpenak inkesta sortu aurretik."
   },
   "logoPosition": "right",
   "questionErrorLocation": "bottom",
@@ -48,7 +50,8 @@
     "fi": "Jatka",
     "hi": "जारी रखें",
     "ar": "متابعة",
-    "ja": "続行"
+    "ja": "続行",
+    "eu": "Jarraitu"
   },
   "pages": [
     {
@@ -64,7 +67,8 @@
         "fi": "Perustiedot",
         "hi": "मूल बातें",
         "ar": "الأساسيات",
-        "ja": "基本"
+        "ja": "基本",
+        "eu": "Oinarriak"
       },
       "navigationTitle": {
         "default": "Basics",
@@ -77,7 +81,8 @@
         "fi": "Perustiedot",
         "hi": "मूल बातें",
         "ar": "الأساسيات",
-        "ja": "基本"
+        "ja": "基本",
+        "eu": "Oinarriak"
       },
       "elements": [
         {
@@ -94,7 +99,8 @@
             "fi": "Lomakkeen otsikko",
             "hi": "फ़ॉर्म का शीर्षक",
             "ar": "عنوان النموذج",
-            "ja": "フォームのタイトル"
+            "ja": "フォームのタイトル",
+            "eu": "Formularioaren izenburua"
           },
           "placeholder": {
             "default": "Data access request form",
@@ -107,7 +113,8 @@
             "fi": "Tietojen käyttöpyyntölomake",
             "hi": "डेटा एक्सेस अनुरोध फ़ॉर्म",
             "ar": "نموذج طلب الوصول إلى البيانات",
-            "ja": "データアクセス要求フォーム"
+            "ja": "データアクセス要求フォーム",
+            "eu": "Datu-sarbide eskaera formularioa"
           },
           "isRequired": true,
           "maxLength": 120,
@@ -124,7 +131,8 @@
             "fi": "Lomakkeen sisäinen ja julkinen nimi.",
             "hi": "फ़ॉर्म का आंतरिक और सार्वजनिक नाम।",
             "ar": "الاسم الداخلي والعام للنموذج.",
-            "ja": "フォームの内部名と公開名。"
+            "ja": "フォームの内部名と公開名。",
+            "eu": "Formularioaren barneko eta kanpoko izena."
           },
           "descriptionLocation": "underTitle"
         },
@@ -142,7 +150,8 @@
             "fi": "Lomakkeen kuvaus",
             "hi": "फ़ॉर्म विवरण",
             "ar": "وصف النموذج",
-            "ja": "フォームの説明"
+            "ja": "フォームの説明",
+            "eu": "Formularioaren deskribapena"
           },
           "placeholder": {
             "default": "Explain purpose, audience, and submission context.",
@@ -155,7 +164,8 @@
             "fi": "Kuvaa tarkoitus, kohdeyleisö ja lähetyskonteksti.",
             "hi": "उद्देश्य, लक्षित दर्शक और सबमिशन संदर्भ समझाएं।",
             "ar": "اشرح الهدف والجمهور وسياق الإرسال.",
-            "ja": "目的、対象者、送信の文脈を説明してください。"
+            "ja": "目的、対象者、送信の文脈を説明してください。",
+            "eu": "Azaldu helburua, hartzaileak eta bidalketa-testuingurua."
           },
           "rows": 3,
           "maxLength": 480,
@@ -171,7 +181,8 @@
             "fi": "Valinnainen ohjeteksti, joka näytetään lomakkeen yhteydessä.",
             "hi": "फ़ॉर्म के साथ दिखाया जाने वाला वैकल्पिक सहायक पाठ।",
             "ar": "نص إرشادي اختياري يُعرض مع النموذج.",
-            "ja": "フォームに表示される任意のヘルプテキスト。"
+            "ja": "フォームに表示される任意のヘルプテキスト。",
+            "eu": "Formularioarekin batera erakusten den laguntza-testu hautazkoa."
           },
           "descriptionLocation": "underTitle"
         },
@@ -189,7 +200,8 @@
             "fi": "Kyselyn kielet",
             "hi": "सर्वे की भाषाएँ",
             "ar": "لغات الاستبيان",
-            "ja": "アンケートの言語"
+            "ja": "アンケートの言語",
+            "eu": "Inkestaren hizkuntzak"
           },
           "description": {
             "default": "Select the allowed languages for this survey (shown as country names with codes).",
@@ -202,19 +214,50 @@
             "fi": "Valitse tälle kyselylle sallitut kielet (näytetään maiden niminä koodeineen).",
             "hi": "इस सर्वे के लिए अनुमत भाषाएँ चुनें (देशों के नाम और कोड के रूप में दिखाई जाएंगी)।",
             "ar": "حدّد اللغات المسموح بها لهذا الاستبيان (تُعرض كأسماء دول مع الرموز).",
-            "ja": "このアンケートで許可する言語を選択します（国名とコードで表示されます）。"
+            "ja": "このアンケートで許可する言語を選択します（国名とコードで表示されます）。",
+            "eu": "Hautatu inkesta honetarako baimendutako hizkuntzak (herrialde-izenak kodeekin erakusten dira)."
           },
           "choices": [
-            { "value": "de", "text": "Germany (de)" },
-            { "value": "en", "text": "England (en)" },
-            { "value": "es", "text": "Spain (es)" },
-            { "value": "fr", "text": "France (fr)" },
-            { "value": "it", "text": "Italy (it)" },
-            { "value": "pt", "text": "Portugal (pt)" },
-            { "value": "fi", "text": "Finland (fi)" },
-            { "value": "hi", "text": "India (hi)" },
-            { "value": "ar", "text": "Saudi Arabia (ar)" },
-            { "value": "ja", "text": "Japan (ja)" }
+            {
+              "value": "de",
+              "text": "Germany (de)"
+            },
+            {
+              "value": "en",
+              "text": "England (en)"
+            },
+            {
+              "value": "es",
+              "text": "Spain (es)"
+            },
+            {
+              "value": "fr",
+              "text": "France (fr)"
+            },
+            {
+              "value": "it",
+              "text": "Italy (it)"
+            },
+            {
+              "value": "pt",
+              "text": "Portugal (pt)"
+            },
+            {
+              "value": "fi",
+              "text": "Finland (fi)"
+            },
+            {
+              "value": "hi",
+              "text": "India (hi)"
+            },
+            {
+              "value": "ar",
+              "text": "Saudi Arabia (ar)"
+            },
+            {
+              "value": "ja",
+              "text": "Japan (ja)"
+            }
           ],
           "placeholder": {
             "default": "Choose one or more languages",
@@ -227,7 +270,8 @@
             "fi": "Valitse yksi tai useampi kieli",
             "hi": "एक या अधिक भाषाएँ चुनें",
             "ar": "اختر لغة واحدة أو أكثر",
-            "ja": "1つ以上の言語を選択"
+            "ja": "1つ以上の言語を選択",
+            "eu": "Hautatu hizkuntza bat edo gehiago"
           },
           "closeOnSelect": false
         },
@@ -245,7 +289,8 @@
             "fi": "Käyttötila",
             "hi": "एक्सेस मोड",
             "ar": "وضع الوصول",
-            "ja": "アクセスモード"
+            "ja": "アクセスモード",
+            "eu": "Sarbide-modua"
           },
           "description": {
             "default": "Choose whether the form is public or requires a trusted access token.",
@@ -258,7 +303,8 @@
             "fi": "Valitse, onko lomake julkinen vai vaatiiko se luotetun käyttö­tunnuksen.",
             "hi": "चुनें कि फ़ॉर्म सार्वजनिक है या विश्वसनीय एक्सेस टोकन की आवश्यकता है।",
             "ar": "اختر ما إذا كان النموذج عامًا أو يتطلب رمز وصول موثوقًا.",
-            "ja": "フォームを公開にするか、信頼できるアクセストークンを必要とするかを選択します。"
+            "ja": "フォームを公開にするか、信頼できるアクセストークンを必要とするかを選択します。",
+            "eu": "Aukeratu formularioa publikoa den edo sarbide-token fidagarria behar duen."
           },
           "choices": [
             {
@@ -274,7 +320,8 @@
                 "fi": "Julkinen",
                 "hi": "सार्वजनिक",
                 "ar": "عام",
-                "ja": "公開"
+                "ja": "公開",
+                "eu": "Publikoa"
               }
             },
             {
@@ -290,7 +337,8 @@
                 "fi": "Luotettu tunnus",
                 "hi": "विश्वसनीय टोकन",
                 "ar": "رمز موثوق",
-                "ja": "信頼済みトークン"
+                "ja": "信頼済みトークン",
+                "eu": "Token fidagarria"
               }
             },
             {
@@ -306,7 +354,8 @@
                 "fi": "Luotetut tunnukset (kertakäyttö)",
                 "hi": "विश्वसनीय टोकन (एकल-उपयोग)",
                 "ar": "رموز موثوقة (للاستخدام مرة واحدة)",
-                "ja": "信頼済みトークン（ワンタイム）"
+                "ja": "信頼済みトークン（ワンタイム）",
+                "eu": "Token fidagarriak (erabilera bakarrekoak)"
               }
             }
           ],
@@ -326,7 +375,8 @@
             "fi": "Luotetun tunnuksen voimassaolo (tuntia)",
             "hi": "विश्वसनीय टोकन की अवधि (घंटे)",
             "ar": "مدة صلاحية الرمز الموثوق (ساعات)",
-            "ja": "信頼済みトークンの有効期限（時間）"
+            "ja": "信頼済みトークンの有効期限（時間）",
+            "eu": "Token fidagarrien iraupena (orduak)"
           },
           "description": {
             "default": "How long trusted access tokens remain valid.",
@@ -339,7 +389,8 @@
             "fi": "Kuinka kauan luotetut käyttö­tunnukset ovat voimassa.",
             "hi": "विश्वसनीय एक्सेस टोकन कितने समय तक मान्य रहते हैं।",
             "ar": "مدة بقاء رموز الوصول الموثوقة صالحة.",
-            "ja": "信頼済みアクセストークンの有効期間。"
+            "ja": "信頼済みアクセストークンの有効期間。",
+            "eu": "Zenbat denboran egoten diren baliozko sarbide-token fidagarriak."
           },
           "visibleIf": "{access_mode} = 'trusted'",
           "inputType": "number",
@@ -363,7 +414,8 @@
         "fi": "Toiminnot",
         "hi": "क्रियाएँ",
         "ar": "الإجراءات",
-        "ja": "アクション"
+        "ja": "アクション",
+        "eu": "Ekintzak"
       },
       "elements": [
         {
@@ -380,7 +432,8 @@
             "fi": "Lähetysten käsittely",
             "hi": "सबमिशन हैंडलिंग",
             "ar": "معالجة الإرسالات",
-            "ja": "送信処理"
+            "ja": "送信処理",
+            "eu": "Bidalketen kudeaketa"
           },
           "description": {
             "default": "Pick every workflow that should trigger on submit.",
@@ -393,7 +446,8 @@
             "fi": "Valitse kaikki työnkulut, jotka käynnistyvät lähetettäessä.",
             "hi": "सबमिट पर ट्रिगर होने वाले सभी वर्कफ़्लो चुनें।",
             "ar": "اختر جميع سير العمل التي يجب تشغيلها عند الإرسال.",
-            "ja": "送信時にトリガーすべきワークフローをすべて選択してください。"
+            "ja": "送信時にトリガーすべきワークフローをすべて選択してください。",
+            "eu": "Hautatu bidaltzean abiarazi beharreko lan-fluxu guztiak."
           },
           "isRequired": true,
           "choices": [
@@ -410,7 +464,8 @@
                 "fi": "Tallenna tietokantaan",
                 "hi": "डेटाबेस में सहेजें",
                 "ar": "الحفظ في قاعدة البيانات",
-                "ja": "データベースに保存"
+                "ja": "データベースに保存",
+                "eu": "Gorde datu-basean"
               }
             },
             {
@@ -426,7 +481,8 @@
                 "fi": "Sähköposti (liitteillä)",
                 "hi": "मेल (अटैचमेंट सहित)",
                 "ar": "البريد (مع المرفقات)",
-                "ja": "メール（添付あり）"
+                "ja": "メール（添付あり）",
+                "eu": "Posta (eranskinak dituela)"
               }
             },
             {
@@ -442,7 +498,8 @@
                 "fi": "Sähköposti (vain ilmoitus)",
                 "hi": "मेल (केवल सूचना)",
                 "ar": "البريد (إشعار فقط)",
-                "ja": "メール（通知のみ）"
+                "ja": "メール（通知のみ）",
+                "eu": "Posta (jakinarazpena soilik)"
               }
             },
             {
@@ -458,7 +515,8 @@
                 "fi": "POST päätepisteeseen",
                 "hi": "एंडपॉइंट को POST करें",
                 "ar": "إرسال POST إلى نقطة النهاية",
-                "ja": "エンドポイントへPOST"
+                "ja": "エンドポイントへPOST",
+                "eu": "POST amaiera-puntura"
               }
             }
           ],
@@ -482,7 +540,8 @@
             "fi": "POST-päätepisteen URL",
             "hi": "POST एंडपॉइंट URL",
             "ar": "عنوان URL لنقطة النهاية لـ POST",
-            "ja": "POSTエンドポイントURL"
+            "ja": "POSTエンドポイントURL",
+            "eu": "POST amaiera-puntuaren URLa"
           },
           "inputType": "url",
           "placeholder": "https://example.org/api/collector",
@@ -498,7 +557,8 @@
             "fi": "Lähetykset lähetetään JSONina, kun POST on käytössä.",
             "hi": "POST सक्षम होने पर सबमिशन JSON के रूप में भेजे जाएंगे।",
             "ar": "عند تفعيل POST ستُرسل الإرسالات بصيغة JSON.",
-            "ja": "POST が有効な場合、送信内容は JSON として送信されます。"
+            "ja": "POST が有効な場合、送信内容は JSON として送信されます。",
+            "eu": "Bidalketak JSON gisa bidaliko dira POST gaituta dagoenean."
           },
           "minWidth": "100%"
         },
@@ -516,7 +576,8 @@
             "fi": "<div><strong>Toimintotyypit selitetty</strong><ul><li><strong>Tallenna tietokantaan:</strong> Tallentaa jokaisen lähetyksen määritettyyn tallennukseen, joko Plonen (ZODB) sisällä tai ulkoiseen relaatiotietokantaan.</li><li><strong>Sähköposti (liitteillä):</strong> Lähettää sähköpostin ja liittää valitut vientimuodot.</li><li><strong>Sähköposti (vain ilmoitus):</strong> Lähettää kevyen ilmoitussähköpostin ilman tulosliitteitä.</li><li><strong>POST päätepisteeseen:</strong> Lähettää lähetyksen tiedot JSONina määritettyyn ulkoiseen URL-osoitteeseen.</li><li><strong>Valitse kaikki:</strong> Ottaa nopeasti käyttöön kaikki yllä olevat toimintotyypit.</li></ul></div>",
             "hi": "<div><strong>एक्शन प्रकारों की व्याख्या</strong><ul><li><strong>डेटाबेस में सहेजें:</strong> प्रत्येक सबमिशन को कॉन्फ़िगर किए गए स्टोरेज में सहेजता है, या तो Plone (ZODB) में या किसी बाहरी रिलेशनल डेटाबेस में।</li><li><strong>मेल (अटैचमेंट सहित):</strong> ईमेल भेजता है और चयनित एक्सपोर्ट फ़ॉर्मेट संलग्न करता है।</li><li><strong>मेल (केवल सूचना):</strong> परिणाम अटैचमेंट के बिना हल्का सूचना ईमेल भेजता है।</li><li><strong>एंडपॉइंट को POST करें:</strong> सबमिशन डेटा को JSON के रूप में कॉन्फ़िगर किए गए बाहरी URL पर भेजता है।</li><li><strong>सभी चुनें:</strong> ऊपर उपलब्ध सभी एक्शन प्रकारों को जल्दी सक्षम करता है।</li></ul></div>",
             "ar": "<div><strong>شرح أنواع الإجراءات</strong><ul><li><strong>الحفظ في قاعدة البيانات:</strong> يحفظ كل إرسال في التخزين المُعد، إما داخل Plone (ZODB) أو في قاعدة بيانات علائقية خارجية.</li><li><strong>البريد (مع المرفقات):</strong> يرسل بريدًا إلكترونيًا ويُرفق صيغ التصدير المحددة.</li><li><strong>البريد (إشعار فقط):</strong> يرسل رسالة إشعار خفيفة بدون مرفقات النتائج.</li><li><strong>إرسال POST إلى نقطة النهاية:</strong> يرسل بيانات الإرسال بصيغة JSON إلى عنوان URL الخارجي المُكوَّن.</li><li><strong>تحديد الكل:</strong> يفعّل بسرعة جميع أنواع الإجراءات المتاحة أعلاه.</li></ul></div>",
-            "ja": "<div><strong>アクション種類の説明</strong><ul><li><strong>データベースに保存:</strong> 各送信を設定済みのストレージに保存します（Plone〈ZODB〉内または外部のリレーショナルデータベース）。</li><li><strong>メール（添付あり）:</strong> メールを送信し、選択したエクスポート形式を添付します。</li><li><strong>メール（通知のみ）:</strong> 結果の添付なしで軽量な通知メールを送信します。</li><li><strong>エンドポイントへPOST:</strong> 送信データをJSONとして設定済みの外部URLへ送信します。</li><li><strong>すべて選択:</strong> 上記の利用可能なアクション種類をすばやくすべて有効にします。</li></ul></div>"
+            "ja": "<div><strong>アクション種類の説明</strong><ul><li><strong>データベースに保存:</strong> 各送信を設定済みのストレージに保存します（Plone〈ZODB〉内または外部のリレーショナルデータベース）。</li><li><strong>メール（添付あり）:</strong> メールを送信し、選択したエクスポート形式を添付します。</li><li><strong>メール（通知のみ）:</strong> 結果の添付なしで軽量な通知メールを送信します。</li><li><strong>エンドポイントへPOST:</strong> 送信データをJSONとして設定済みの外部URLへ送信します。</li><li><strong>すべて選択:</strong> 上記の利用可能なアクション種類をすばやくすべて有効にします。</li></ul></div>",
+            "eu": "<div><strong>Ekintza-motak azalduak</strong><ul><li><strong>Gorde datu-basean:</strong> Bidalketa bakoitza konfiguratutako biltegian gordetzen du, Plone barruan (ZODB) edo kanpoko datu-base erlazional batean.</li><li><strong>Posta (eranskinak dituela):</strong> Mezu bat bidaltzen du eta hautatutako esportazio-formatuak erantsi.</li><li><strong>Posta (jakinarazpena soilik):</strong> Jakinarazpen-mezu arin bat bidaltzen du, emaitzen eranskinik gabe.</li><li><strong>POST amaiera-puntura:</strong> Bidalketa-datuak JSON gisa bidaltzen ditu konfiguratutako kanpoko URLra.</li><li><strong>Hautatu guztiak:</strong> Goiko ekintza-mota erabilgarri guztiak azkar gaitzen ditu.</li></ul></div>"
           }
         }
       ]
@@ -534,7 +595,8 @@
         "fi": "Sähköposti",
         "hi": "मेल",
         "ar": "البريد",
-        "ja": "メール"
+        "ja": "メール",
+        "eu": "Posta"
       },
       "navigationTitle": {
         "default": "Mail",
@@ -547,7 +609,8 @@
         "fi": "Sähköposti",
         "hi": "मेल",
         "ar": "البريد",
-        "ja": "メール"
+        "ja": "メール",
+        "eu": "Posta"
       },
       "description": {
         "default": "Configure sender, recipients, content, and attachments used when the \"Mail (with attachments)\" action is enabled.",
@@ -560,7 +623,8 @@
         "fi": "Määritä lähettäjä, vastaanottajat, sisältö ja liitteet, kun toiminto \"Sähköposti (liitteillä)\" on käytössä.",
         "hi": "जब \"मेल (अटैचमेंट सहित)\" कार्रवाई सक्षम हो, तो उपयोग किए जाने वाले प्रेषक, प्राप्तकर्ता, सामग्री और अटैचमेंट कॉन्फ़िगर करें।",
         "ar": "اضبط المرسل والمستلمين والمحتوى والمرفقات المستخدمة عند تفعيل إجراء \"البريد (مع المرفقات)\".",
-        "ja": "「メール（添付あり）」アクションが有効なときに使用される送信元、受信者、内容、添付ファイルを設定します。"
+        "ja": "「メール（添付あり）」アクションが有効なときに使用される送信元、受信者、内容、添付ファイルを設定します。",
+        "eu": "Konfiguratu bidaltzailea, hartzaileak, edukia eta eranskinak \"Posta (eranskinak dituela)\" ekintza gaituta dagoenean erabiltzeko."
       },
       "elements": [
         {
@@ -577,7 +641,8 @@
             "fi": "Käytä globaaleja sähköpostiasetuksia",
             "hi": "वैश्विक मेल सेटिंग्स का उपयोग करें",
             "ar": "استخدم إعدادات البريد العامة",
-            "ja": "グローバルメール設定を使用する"
+            "ja": "グローバルメール設定を使用する",
+            "eu": "Erabili posta-ezarpen globalak"
           },
           "description": {
             "default": "If enabled, mail settings from the global control panel are used and local mail fields are disabled.",
@@ -590,7 +655,8 @@
             "fi": "Jos käytössä, käytetään globaalin hallintapaneelin sähköpostiasetuksia ja paikalliset sähköpostikentät poistetaan käytöstä.",
             "hi": "सक्षम होने पर, वैश्विक कंट्रोल पैनल की मेल सेटिंग्स उपयोग की जाती हैं और स्थानीय मेल फ़ील्ड अक्षम कर दिए जाते हैं।",
             "ar": "عند التفعيل، تُستخدم إعدادات البريد من لوحة التحكم العامة وتُعطَّل حقول البريد المحلية.",
-            "ja": "有効にすると、グローバル管理パネルのメール設定が使用され、ローカルのメール項目は無効になります。"
+            "ja": "有効にすると、グローバル管理パネルのメール設定が使用され、ローカルのメール項目は無効になります。",
+            "eu": "Gaituta badago, kontrol-panel globaleko posta-ezarpenak erabiliko dira eta posta-eremu lokalak desaktibatuko dira."
           },
           "labelTrue": {
             "default": "Global settings",
@@ -603,7 +669,8 @@
             "fi": "Globaalit asetukset",
             "hi": "वैश्विक सेटिंग्स",
             "ar": "الإعدادات العامة",
-            "ja": "グローバル設定"
+            "ja": "グローバル設定",
+            "eu": "Ezarpen globalak"
           },
           "labelFalse": {
             "default": "Local settings",
@@ -616,7 +683,8 @@
             "fi": "Paikalliset asetukset",
             "hi": "स्थानीय सेटिंग्स",
             "ar": "الإعدادات المحلية",
-            "ja": "ローカル設定"
+            "ja": "ローカル設定",
+            "eu": "Ezarpen lokalak"
           },
           "defaultValue": true,
           "minWidth": "100%"
@@ -635,7 +703,8 @@
             "fi": "Lähettäjä",
             "hi": "प्रेषक",
             "ar": "المرسل",
-            "ja": "送信元"
+            "ja": "送信元",
+            "eu": "Bidaltzailea"
           },
           "inputType": "email",
           "placeholder": "privacy@agency.example",
@@ -650,7 +719,8 @@
             "fi": "Pakollinen tulossähköposteja lähetettäessä.",
             "hi": "परिणाम ईमेल भेजते समय आवश्यक।",
             "ar": "مطلوب عند إرسال رسائل نتائج البريد الإلكتروني.",
-            "ja": "結果メール送信時に必須。"
+            "ja": "結果メール送信時に必須。",
+            "eu": "Emaitzen mezuak bidaltzean derrigorrezkoa."
           },
           "visibleIf": "{use_global_mail_settings} = false",
           "width": "50%"
@@ -669,7 +739,8 @@
             "fi": "Vastaanottaja",
             "hi": "प्राप्तकर्ता",
             "ar": "المستلم",
-            "ja": "受信者"
+            "ja": "受信者",
+            "eu": "Hartzailea"
           },
           "inputType": "email",
           "placeholder": "ops@agency.example",
@@ -684,7 +755,8 @@
             "fi": "Päävastaanottaja. Pakollinen sähköpostitoiminnon kanssa.",
             "hi": "मुख्य प्राप्तकर्ता। मेल कार्रवाई के लिए आवश्यक।",
             "ar": "المستلم الأساسي. مطلوب مع إجراء البريد.",
-            "ja": "主要受信者。メールアクションで必須。"
+            "ja": "主要受信者。メールアクションで必須。",
+            "eu": "Hartzaile nagusia. Derrigorrezkoa Posta ekintzarekin."
           },
           "visibleIf": "{use_global_mail_settings} = false",
           "width": "50%",
@@ -704,7 +776,8 @@
             "fi": "CC",
             "hi": "सीसी",
             "ar": "نسخة (CC)",
-            "ja": "CC"
+            "ja": "CC",
+            "eu": "CC"
           },
           "placeholder": {
             "default": "One recipient per line",
@@ -717,7 +790,8 @@
             "fi": "Yksi vastaanottaja per rivi",
             "hi": "प्रति पंक्ति एक प्राप्तकर्ता",
             "ar": "مستلم واحد لكل سطر",
-            "ja": "1行に1受信者"
+            "ja": "1行に1受信者",
+            "eu": "Hartzaile bat lerroko"
           },
           "rows": 2,
           "description": {
@@ -731,7 +805,8 @@
             "fi": "Valinnainen CC-vastaanottajien lista.",
             "hi": "सीसी प्राप्तकर्ताओं की वैकल्पिक सूची।",
             "ar": "قائمة اختيارية بمستلمي CC.",
-            "ja": "CC 受信者の任意リスト。"
+            "ja": "CC 受信者の任意リスト。",
+            "eu": "CC hartzaileen zerrenda hautazkoa."
           },
           "visibleIf": "{use_global_mail_settings} = false",
           "width": "50%"
@@ -750,7 +825,8 @@
             "fi": "Piilokopio",
             "hi": "बीसीसी",
             "ar": "نسخة مخفية (BCC)",
-            "ja": "BCC"
+            "ja": "BCC",
+            "eu": "BCC"
           },
           "placeholder": {
             "default": "One recipient per line",
@@ -763,7 +839,8 @@
             "fi": "Yksi vastaanottaja per rivi",
             "hi": "प्रति पंक्ति एक प्राप्तकर्ता",
             "ar": "مستلم واحد لكل سطر",
-            "ja": "1行に1受信者"
+            "ja": "1行に1受信者",
+            "eu": "Hartzaile bat lerroko"
           },
           "rows": 2,
           "description": {
@@ -777,7 +854,8 @@
             "fi": "Valinnainen piilokopio-vastaanottajien lista.",
             "hi": "बीसीसी प्राप्तकर्ताओं की वैकल्पिक सूची।",
             "ar": "قائمة اختيارية بمستلمي BCC.",
-            "ja": "BCC 受信者の任意リスト。"
+            "ja": "BCC 受信者の任意リスト。",
+            "eu": "BCC hartzaileen zerrenda hautazkoa."
           },
           "visibleIf": "{use_global_mail_settings} = false",
           "width": "50%",
@@ -797,7 +875,8 @@
             "fi": "Aihe",
             "hi": "विषय",
             "ar": "الموضوع",
-            "ja": "件名"
+            "ja": "件名",
+            "eu": "Gaia"
           },
           "placeholder": {
             "default": "New submission ({poll_id})",
@@ -810,7 +889,8 @@
             "fi": "Uusi lähetys ({poll_id})",
             "hi": "नया सबमिशन ({poll_id})",
             "ar": "إرسال جديد ({poll_id})",
-            "ja": "新しい送信 ({poll_id})"
+            "ja": "新しい送信 ({poll_id})",
+            "eu": "Bidalketa berria ({poll_id})"
           },
           "description": {
             "default": "Subject for result exports.",
@@ -823,7 +903,8 @@
             "fi": "Aihe tulosten vientiä varten.",
             "hi": "परिणाम एक्सपोर्ट के लिए विषय।",
             "ar": "موضوع لعمليات تصدير النتائج.",
-            "ja": "結果エクスポート用の件名。"
+            "ja": "結果エクスポート用の件名。",
+            "eu": "Emaitzen esportazioetarako gaia."
           },
           "visibleIf": "{use_global_mail_settings} = false",
           "minWidth": "100%"
@@ -842,7 +923,8 @@
             "fi": "Sähköpostin sisältö",
             "hi": "ईमेल बॉडी",
             "ar": "نص البريد الإلكتروني",
-            "ja": "メール本文"
+            "ja": "メール本文",
+            "eu": "E-posta gorputza"
           },
           "rows": 5,
           "placeholder": {
@@ -856,7 +938,8 @@
             "fi": "Kirjoita sähköpostin teksti...",
             "hi": "ईमेल पाठ प्रदान करें...",
             "ar": "أدخل نص البريد الإلكتروني...",
-            "ja": "メール本文を入力..."
+            "ja": "メール本文を入力...",
+            "eu": "Idatzi mezuaren testua..."
           },
           "description": {
             "default": "Optional body for result exports.",
@@ -869,7 +952,8 @@
             "fi": "Valinnainen sisältö tulosten vientiä varten.",
             "hi": "परिणाम एक्सपोर्ट के लिए वैकल्पिक बॉडी।",
             "ar": "نص اختياري لتصدير النتائج.",
-            "ja": "結果エクスポート用の任意の本文。"
+            "ja": "結果エクスポート用の任意の本文。",
+            "eu": "Emaitzen esportazioetarako gorputz hautazkoa."
           },
           "visibleIf": "{use_global_mail_settings} = false",
           "minWidth": "100%"
@@ -888,7 +972,8 @@
             "fi": "Liitteet",
             "hi": "अटैचमेंट",
             "ar": "المرفقات",
-            "ja": "添付ファイル"
+            "ja": "添付ファイル",
+            "eu": "Eranskinak"
           },
           "description": {
             "default": "Select which export formats of the collected form data should be attached to the email.",
@@ -901,7 +986,8 @@
             "fi": "Valitse, mitkä kerättyjen lomaketietojen vientimuodot liitetään sähköpostiin.",
             "hi": "एकत्र किए गए फ़ॉर्म डेटा के कौन से एक्सपोर्ट फ़ॉर्मेट ईमेल में संलग्न करने हैं, चुनें।",
             "ar": "اختر تنسيقات التصدير لبيانات النموذج التي يجب إرفاقها بالبريد.",
-            "ja": "収集したフォームデータのどのエクスポート形式をメールに添付するか選択してください。"
+            "ja": "収集したフォームデータのどのエクスポート形式をメールに添付するか選択してください。",
+            "eu": "Hautatu bildutako formulario-datuen zein esportazio-formatuk erantsi behar diren mezuari."
           },
           "visibleIf": "{use_global_mail_settings} = false",
           "colCount": 3,
@@ -919,7 +1005,8 @@
                 "fi": "Teksti",
                 "hi": "टेक्स्ट",
                 "ar": "نص",
-                "ja": "テキスト"
+                "ja": "テキスト",
+                "eu": "Testua"
               }
             },
             {
@@ -935,7 +1022,8 @@
                 "fi": "Markdown",
                 "hi": "मार्कडाउन",
                 "ar": "ماركداون",
-                "ja": "Markdown"
+                "ja": "Markdown",
+                "eu": "Markdown"
               }
             },
             {
@@ -951,7 +1039,8 @@
                 "fi": "HTML",
                 "hi": "HTML",
                 "ar": "HTML",
-                "ja": "HTML"
+                "ja": "HTML",
+                "eu": "HTML"
               }
             },
             {
@@ -967,7 +1056,8 @@
                 "fi": "PDF",
                 "hi": "PDF",
                 "ar": "PDF",
-                "ja": "PDF"
+                "ja": "PDF",
+                "eu": "PDF"
               }
             },
             {
@@ -983,7 +1073,8 @@
                 "fi": "CSV",
                 "hi": "CSV",
                 "ar": "CSV",
-                "ja": "CSV"
+                "ja": "CSV",
+                "eu": "CSV"
               }
             },
             {
@@ -999,7 +1090,8 @@
                 "fi": "Excel",
                 "hi": "Excel",
                 "ar": "Excel",
-                "ja": "Excel"
+                "ja": "Excel",
+                "eu": "Excel"
               }
             },
             {
@@ -1015,7 +1107,8 @@
                 "fi": "XML",
                 "hi": "XML",
                 "ar": "XML",
-                "ja": "XML"
+                "ja": "XML",
+                "eu": "XML"
               }
             },
             {
@@ -1031,7 +1124,8 @@
                 "fi": "Word",
                 "hi": "Word",
                 "ar": "Word",
-                "ja": "Word"
+                "ja": "Word",
+                "eu": "Word"
               }
             },
             {
@@ -1047,7 +1141,8 @@
                 "fi": "JSON",
                 "hi": "JSON",
                 "ar": "JSON",
-                "ja": "JSON"
+                "ja": "JSON",
+                "eu": "JSON"
               }
             }
           ],
@@ -1068,7 +1163,8 @@
         "fi": "Sähköposti-ilmoitukset",
         "hi": "मेल सूचनाएँ",
         "ar": "إشعارات البريد",
-        "ja": "メール通知"
+        "ja": "メール通知",
+        "eu": "Posta-jakinarazpenak"
       },
       "navigationTitle": {
         "default": "Mail notifications",
@@ -1081,7 +1177,8 @@
         "fi": "Sähköposti-ilmoitukset",
         "hi": "मेल सूचनाएँ",
         "ar": "إشعارات البريد",
-        "ja": "メール通知"
+        "ja": "メール通知",
+        "eu": "Posta-jakinarazpenak"
       },
       "description": {
         "default": "Notification emails send a short alert about a new submission without attachments, unlike the \"Mail (with attachments)\" action which sends exported submission files.",
@@ -1094,7 +1191,8 @@
         "fi": "Ilmoitussähköpostit lähettävät lyhyen ilmoituksen uudesta lähetyksestä ilman liitteitä, toisin kuin \"Sähköposti (liitteillä)\" -toiminto, joka lähettää vietyjä lähetys­tiedostoja.",
         "hi": "सूचना ईमेल नए सबमिशन के बारे में बिना अटैचमेंट के एक छोटा अलर्ट भेजते हैं, जबकि \"मेल (अटैचमेंट सहित)\" कार्रवाई एक्सपोर्ट की गई सबमिशन फ़ाइलें भेजती है।",
         "ar": "ترسل رسائل الإشعار تنبيهًا قصيرًا حول إرسال جديد بدون مرفقات، بخلاف إجراء \"البريد (مع المرفقات)\" الذي يرسل ملفات الإرسال المُصدَّرة.",
-        "ja": "通知メールは新しい送信について添付なしの短い通知を送りますが、「メール（添付あり）」アクションはエクスポートされた送信ファイルを送信します。"
+        "ja": "通知メールは新しい送信について添付なしの短い通知を送りますが、「メール（添付あり）」アクションはエクスポートされた送信ファイルを送信します。",
+        "eu": "Jakinarazpen-mezuek bidalketa berriari buruzko alerta labur bat bidaltzen dute eranskinik gabe, \"Posta (eranskinak dituela)\" ekintzak bidalketa-fitxategiak esportatuta bidaltzen dituen bitartean."
       },
       "elements": [
         {
@@ -1111,7 +1209,8 @@
             "fi": "Ilmoituksen aihe",
             "hi": "सूचना विषय",
             "ar": "موضوع الإشعار",
-            "ja": "通知件名"
+            "ja": "通知件名",
+            "eu": "Jakinarazpenaren gaia"
           },
           "placeholder": {
             "default": "Form submitted ({title})",
@@ -1124,7 +1223,8 @@
             "fi": "Lomake lähetetty ({title})",
             "hi": "फ़ॉर्म सबमिट किया गया ({title})",
             "ar": "تم إرسال النموذج ({title})",
-            "ja": "フォームが送信されました ({title})"
+            "ja": "フォームが送信されました ({title})",
+            "eu": "Formularioa bidalita ({title})"
           },
           "description": {
             "default": "Subject line for notification-only emails.",
@@ -1137,7 +1237,8 @@
             "fi": "Aihekenttä vain ilmoitussähköposteille.",
             "hi": "केवल सूचना ईमेल के लिए विषय पंक्ति।",
             "ar": "سطر الموضوع لرسائل الإشعار فقط.",
-            "ja": "通知のみのメール用の件名行。"
+            "ja": "通知のみのメール用の件名行。",
+            "eu": "Jakinarazpen hutsak diren mezuen gaia."
           },
           "minWidth": "100%"
         },
@@ -1155,7 +1256,8 @@
             "fi": "Ilmoituksen sisältö",
             "hi": "सूचना बॉडी",
             "ar": "نص الإشعار",
-            "ja": "通知本文"
+            "ja": "通知本文",
+            "eu": "Jakinarazpenaren gorputza"
           },
           "rows": 15,
           "placeholder": {
@@ -1169,7 +1271,8 @@
             "fi": "Hei...",
             "hi": "नमस्ते...",
             "ar": "مرحبًا...",
-            "ja": "こんにちは..."
+            "ja": "こんにちは...",
+            "eu": "Kaixo..."
           },
           "description": {
             "default": "Message sent for notification-only emails. Supports {title}, {detail_url}, {poll_id}.",
@@ -1182,7 +1285,8 @@
             "fi": "Vain ilmoitussähköposteissa lähetettävä viesti. Tukee {title}, {detail_url}, {poll_id}.",
             "hi": "केवल सूचना ईमेल के लिए भेजा गया संदेश। {title}, {detail_url}, {poll_id} का समर्थन करता है।",
             "ar": "الرسالة المُرسلة لرسائل الإشعار فقط. تدعم {title} و{detail_url} و{poll_id}.",
-            "ja": "通知のみのメールで送信されるメッセージ。{title}、{detail_url}、{poll_id} をサポートします。"
+            "ja": "通知のみのメールで送信されるメッセージ。{title}、{detail_url}、{poll_id} をサポートします。",
+            "eu": "Jakinarazpen hutsak diren mezuen mezua. {title}, {detail_url}, {poll_id} onartzen ditu."
           },
           "minWidth": "100%"
         },
@@ -1200,7 +1304,8 @@
             "fi": "<div><strong>Saatavilla olevat paikkamerkit</strong><ul><li><code>&#123;title&#125;</code>: Kyselyn otsikko</li><li><code>&#123;detail_url&#125;</code>: Linkki lähetyksen tietosivulle</li><li><code>&#123;poll_id&#125;</code>: Lähetyksen tunniste</li></ul></div>",
             "hi": "<div><strong>उपलब्ध प्लेसहोल्डर</strong><ul><li><code>&#123;title&#125;</code>: सर्वे शीर्षक</li><li><code>&#123;detail_url&#125;</code>: सबमिशन विवरण पेज का लिंक</li><li><code>&#123;poll_id&#125;</code>: सबमिशन पहचानकर्ता</li></ul></div>",
             "ar": "<div><strong>عناصر الاستبدال المتاحة</strong><ul><li><code>&#123;title&#125;</code>: عنوان الاستبيان</li><li><code>&#123;detail_url&#125;</code>: رابط صفحة تفاصيل الإرسال</li><li><code>&#123;poll_id&#125;</code>: معرّف الإرسال</li></ul></div>",
-            "ja": "<div><strong>利用可能なプレースホルダー</strong><ul><li><code>&#123;title&#125;</code>: アンケートのタイトル</li><li><code>&#123;detail_url&#125;</code>: 送信詳細ページへのリンク</li><li><code>&#123;poll_id&#125;</code>: 送信識別子</li></ul></div>"
+            "ja": "<div><strong>利用可能なプレースホルダー</strong><ul><li><code>&#123;title&#125;</code>: アンケートのタイトル</li><li><code>&#123;detail_url&#125;</code>: 送信詳細ページへのリンク</li><li><code>&#123;poll_id&#125;</code>: 送信識別子</li></ul></div>",
+            "eu": "<div><strong>Erabilgarri dauden tokenak</strong><ul><li><code>&#123;title&#125;</code>: Inkestaren izenburua</li><li><code>&#123;detail_url&#125;</code>: Bidalketaren xehetasun-orrirako esteka</li><li><code>&#123;poll_id&#125;</code>: Bidalketaren identifikatzailea</li></ul></div>"
           }
         }
       ]
@@ -1218,7 +1323,8 @@
         "fi": "Lomakkeen asetukset",
         "hi": "फ़ॉर्म सेटिंग्स",
         "ar": "إعدادات النموذج",
-        "ja": "フォーム設定"
+        "ja": "フォーム設定",
+        "eu": "Formularioaren ezarpenak"
       },
       "navigationTitle": {
         "default": "Form settings",
@@ -1231,7 +1337,8 @@
         "fi": "Lomakkeen asetukset",
         "hi": "फ़ॉर्म सेटिंग्स",
         "ar": "إعدادات النموذج",
-        "ja": "フォーム設定"
+        "ja": "フォーム設定",
+        "eu": "Formularioaren ezarpenak"
       },
       "elements": [
         {
@@ -1248,7 +1355,8 @@
             "fi": "Upotustila",
             "hi": "एम्बेडिंग मोड",
             "ar": "وضع التضمين",
-            "ja": "埋め込みモード"
+            "ja": "埋め込みモード",
+            "eu": "Kapsulatze-modua"
           },
           "description": {
             "default": "Controls whether this survey may be embedded. Use Iframe to allow embedding.",
@@ -1261,7 +1369,8 @@
             "fi": "Määrittää, voiko tämän kyselyn upottaa. Salli upotus valitsemalla Iframe.",
             "hi": "यह नियंत्रित करता है कि इस सर्वे को एम्बेड किया जा सकता है या नहीं। एम्बेडिंग की अनुमति देने के लिए Iframe चुनें।",
             "ar": "يتحكم فيما إذا كان يمكن تضمين هذا الاستبيان. استخدم Iframe للسماح بالتضمين.",
-            "ja": "このアンケートを埋め込み可能にするかどうかを制御します。埋め込みを許可するには Iframe を使用します。"
+            "ja": "このアンケートを埋め込み可能にするかどうかを制御します。埋め込みを許可するには Iframe を使用します。",
+            "eu": "Inkesta hau kapsulatu daitekeen kontrolatzen du. Erabili Iframe kapsulatzea baimentzeko."
           },
           "choices": [
             {
@@ -1277,7 +1386,8 @@
                 "fi": "Ei mitään",
                 "hi": "कोई नहीं",
                 "ar": "بدون",
-                "ja": "なし"
+                "ja": "なし",
+                "eu": "Bat ere ez"
               }
             },
             {
@@ -1293,7 +1403,8 @@
                 "fi": "Iframe",
                 "hi": "Iframe",
                 "ar": "Iframe",
-                "ja": "Iframe"
+                "ja": "Iframe",
+                "eu": "Iframe"
               }
             },
             {
@@ -1309,7 +1420,8 @@
                 "fi": "Suora DOM",
                 "hi": "डायरेक्ट DOM",
                 "ar": "DOM المباشر",
-                "ja": "ダイレクトDOM"
+                "ja": "ダイレクトDOM",
+                "eu": "DOM zuzena"
               }
             }
           ],
@@ -1329,7 +1441,8 @@
             "fi": "Pakota palvelinpuolen validointi",
             "hi": "सर्वर-साइड सत्यापन लागू करें",
             "ar": "فرض التحقق من جهة الخادم",
-            "ja": "サーバー側検証を強制"
+            "ja": "サーバー側検証を強制",
+            "eu": "Behartu zerbitzariaren aldeko balidazioa"
           },
           "description": {
             "default": "Always validate submissions on the server before processing.",
@@ -1342,7 +1455,8 @@
             "fi": "Validoi aina lähetykset palvelimella ennen käsittelyä.",
             "hi": "प्रोसेसिंग से पहले हमेशा सर्वर पर सबमिशन का सत्यापन करें।",
             "ar": "تحقق دائمًا من الإرسالات على الخادم قبل المعالجة.",
-            "ja": "処理前に常にサーバーで送信内容を検証します。"
+            "ja": "処理前に常にサーバーで送信内容を検証します。",
+            "eu": "Balidatu beti bidalketak zerbitzarian prozesatu aurretik."
           },
           "labelTrue": {
             "default": "Enabled",
@@ -1355,7 +1469,8 @@
             "fi": "Käytössä",
             "hi": "सक्षम",
             "ar": "مفعّل",
-            "ja": "有効"
+            "ja": "有効",
+            "eu": "Gaituta"
           },
           "labelFalse": {
             "default": "Disabled",
@@ -1368,7 +1483,8 @@
             "fi": "Pois käytöstä",
             "hi": "अक्षम",
             "ar": "معطّل",
-            "ja": "無効"
+            "ja": "無効",
+            "eu": "Desaktibatuta"
           },
           "defaultValue": true
         },
@@ -1386,7 +1502,8 @@
             "fi": "Suurin hyötykuorman koko (MB)",
             "hi": "अधिकतम पेलोड आकार (MB)",
             "ar": "الحد الأقصى لحجم الحمولة (MB)",
-            "ja": "最大ペイロードサイズ (MB)"
+            "ja": "最大ペイロードサイズ (MB)",
+            "eu": "Karga-tamaina maximoa (MB)"
           },
           "description": {
             "default": "Maximum accepted request size for one submission.",
@@ -1399,7 +1516,8 @@
             "fi": "Suurin hyväksytty pyyntökoon yhden lähetyksen osalta.",
             "hi": "एक सबमिशन के लिए स्वीकार्य अधिकतम अनुरोध आकार।",
             "ar": "الحد الأقصى لحجم الطلب المقبول لإرسال واحد.",
-            "ja": "1回の送信で受け入れ可能な最大リクエストサイズ。"
+            "ja": "1回の送信で受け入れ可能な最大リクエストサイズ。",
+            "eu": "Bidalketa baterako onartutako eskaera-tamaina maximoa."
           },
           "inputType": "number",
           "min": 1,
@@ -1422,7 +1540,8 @@
         "fi": "Teemaus",
         "hi": "थीमिंग",
         "ar": "تنسيق المظهر",
-        "ja": "テーマ設定"
+        "ja": "テーマ設定",
+        "eu": "Gaiak"
       },
       "navigationTitle": {
         "default": "Theming",
@@ -1435,7 +1554,8 @@
         "fi": "Teemaus",
         "hi": "थीमिंग",
         "ar": "تنسيق المظهر",
-        "ja": "テーマ設定"
+        "ja": "テーマ設定",
+        "eu": "Gaiak"
       },
       "description": {
         "default": "Select a theme for this survey. Themes are managed in the Theme Manager.",
@@ -1448,7 +1568,8 @@
         "fi": "Valitse teema tälle kyselylle. Teemoja hallinnoidaan Teemahallinnassa.",
         "hi": "इस सर्वे के लिए थीम चुनें। थीम का प्रबंधन थीम मैनेजर में किया जाता है।",
         "ar": "اختر سمة لهذا الاستبيان. تتم إدارة السمات في مدير السمات.",
-        "ja": "このアンケートのテーマを選択します。テーマはテーママネージャーで管理されます。"
+        "ja": "このアンケートのテーマを選択します。テーマはテーママネージャーで管理されます。",
+        "eu": "Hautatu gai bat inkesta honetarako. Gaiak Gai-kudeatzailean kudeatzen dira."
       },
       "elements": [
         {
@@ -1465,7 +1586,8 @@
             "fi": "Teema",
             "hi": "थीम",
             "ar": "السمة",
-            "ja": "テーマ"
+            "ja": "テーマ",
+            "eu": "Gaia"
           },
           "description": {
             "default": "Apply a theme to style this survey. Themes are created and managed in the Theme Manager.",
@@ -1478,7 +1600,8 @@
             "fi": "Käytä teemaa tämän kyselyn tyylittämiseen. Teemat luodaan ja hallinnoidaan Teemahallinnassa.",
             "hi": "इस सर्वे को स्टाइल करने के लिए थीम लागू करें। थीम थीम मैनेजर में बनाई और प्रबंधित की जाती हैं।",
             "ar": "طبق سمة لتصميم هذا الاستبيان. يتم إنشاء السمات وإدارتها في مدير السمات.",
-            "ja": "このアンケートのスタイルにテーマを適用します。テーマはテーママネージャーで作成・管理されます。"
+            "ja": "このアンケートのスタイルにテーマを適用します。テーマはテーママネージャーで作成・管理されます。",
+            "eu": "Aplikatu gai bat inkesta honi estiloa emateko. Gaiak Gai-kudeatzailean sortzen eta kudeatzen dira."
           },
           "choices": [
             {
@@ -1494,7 +1617,8 @@
                 "fi": "Ei teemaa",
                 "hi": "कोई थीम नहीं",
                 "ar": "بدون سمة",
-                "ja": "テーマなし"
+                "ja": "テーマなし",
+                "eu": "Gaiarik ez"
               }
             }
           ],
@@ -1515,7 +1639,8 @@
         "fi": "Päivämäärät",
         "hi": "तिथियाँ",
         "ar": "التواريخ",
-        "ja": "日付"
+        "ja": "日付",
+        "eu": "Datak"
       },
       "navigationTitle": {
         "default": "Dates",
@@ -1528,7 +1653,8 @@
         "fi": "Päivämäärät",
         "hi": "तिथियाँ",
         "ar": "التواريخ",
-        "ja": "日付"
+        "ja": "日付",
+        "eu": "Datak"
       },
       "description": {
         "default": "Control when this survey becomes visible and when it should expire.",
@@ -1541,7 +1667,8 @@
         "fi": "Hallitse, milloin tämä kysely tulee näkyviin ja milloin sen tulee päättyä.",
         "hi": "यह सर्वे कब दिखाई दे और कब समाप्त हो, इसे नियंत्रित करें।",
         "ar": "تحكم في موعد ظهور هذا الاستبيان ومتى يجب أن تنتهي صلاحيته.",
-        "ja": "このアンケートの表示開始と期限を設定します。"
+        "ja": "このアンケートの表示開始と期限を設定します。",
+        "eu": "Kontrolatu inkesta hau noiz ikusgai bihurtzen den eta noiz iraungiko den."
       },
       "elements": [
         {
@@ -1558,7 +1685,8 @@
             "fi": "Voimassa",
             "hi": "प्रभावी",
             "ar": "ساري",
-            "ja": "有効開始"
+            "ja": "有効開始",
+            "eu": "Indarrean"
           },
           "inputType": "datetime-local",
           "placeholder": "YYYY-MM-DD HH:MM",
@@ -1573,7 +1701,8 @@
             "fi": "Valinnainen. Jätä tyhjäksi, jotta kysely tulee voimaan heti.",
             "hi": "वैकल्पिक। सर्वे को तुरंत प्रभावी बनाने के लिए खाली छोड़ें।",
             "ar": "اختياري. اتركه فارغًا لجعل الاستبيان ساريًا فورًا.",
-            "ja": "任意。空のままにすると即時に有効になります。"
+            "ja": "任意。空のままにすると即時に有効になります。",
+            "eu": "Hautazkoa. Utzi hutsik inkesta berehala indarrean jartzeko."
           },
           "descriptionLocation": "underTitle",
           "minWidth": "100%"
@@ -1592,7 +1721,8 @@
             "fi": "Päättyy",
             "hi": "समाप्ति",
             "ar": "انتهاء الصلاحية",
-            "ja": "有効期限"
+            "ja": "有効期限",
+            "eu": "Iraungitze-data"
           },
           "inputType": "datetime-local",
           "placeholder": "YYYY-MM-DD HH:MM",
@@ -1607,7 +1737,8 @@
             "fi": "Valinnainen. Jätä tyhjäksi, jotta kysely pysyy saatavilla.",
             "hi": "वैकल्पिक। सर्वे को उपलब्ध रखने के लिए खाली छोड़ें।",
             "ar": "اختياري. اتركه فارغًا للإبقاء على الاستبيان متاحًا.",
-            "ja": "任意。空のままにすると利用可能なままになります。"
+            "ja": "任意。空のままにすると利用可能なままになります。",
+            "eu": "Hautazkoa. Utzi hutsik inkesta erabilgarri mantentzeko."
           },
           "descriptionLocation": "underTitle",
           "minWidth": "100%"
@@ -1626,6 +1757,7 @@
     "fi": "<div class='survey-add-loading'>Luodaan kyselyäsi...</div>",
     "hi": "<div class='survey-add-loading'>आपका सर्वे बनाया जा रहा है...</div>",
     "ar": "<div class='survey-add-loading'>جارٍ إنشاء الاستبيان...</div>",
-    "ja": "<div class='survey-add-loading'>アンケートを作成しています...</div>"
+    "ja": "<div class='survey-add-loading'>アンケートを作成しています...</div>",
+    "eu": "<div class='survey-add-loading'>Zure inkesta sortzen...</div>"
   }
 }
